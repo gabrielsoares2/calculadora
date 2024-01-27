@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="calc.css">
+	<title>Calculadora</title>
+
+</head>
+<body>
+
+	<div id='container'>
+		
+		<div id='caixa'>
+			
+			<input type="text" id='caixaDeEntrada'>
+
+		</div>
+
+		<div id='botoes'>
+
+			<div id='linha1'>
+				<button onclick="calculo('7')" id='7' class='number'>7</button>
+				<button onclick="calculo('8')" id='8' class='number'>8</button>
+				<button onclick="calculo('9')" id='9' class='number'>9</button>
+				<button onclick="calculo('/')" id='/'>/</button>
+			</div>
+
+			<div id='linha3'>
+				<button onclick="calculo('4')" id='4' class='number'>4</button>
+				<button onclick="calculo('5')" id='5' class='number'>5</button>
+				<button onclick="calculo('6')" id='6' class='number'>6</button>
+				<button onclick="calculo('*')" id='*'>*</button>
+			</div>
+
+			<div id='linha3'>
+				<button onclick="calculo('1')" id='1' class='number'>1</button>
+				<button onclick="calculo('2')" id='2' class='number'>2</button>
+				<button onclick="calculo('3')" id='3' class='number'>3</button>
+				<button onclick="calculo('-')" id='-'>-</button>
+			</div>
+
+			<div id='linha4'>
+				<button onclick="calculo('.')" id='.'>.</button>
+				<button onclick="calculo('0')" id='0' class='number'>0</button>
+				<button onclick="res()" id='='>=</button>
+				<button onclick="calculo('+')" id='+'>+</button>
+			</div>
+
+		</div>
+
+	</div>
+
+	<script src='calc.js'></script>
+</body>
+</html>
