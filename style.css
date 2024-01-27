@@ -1,3 +1,7 @@
+body {
+	background-color: skyblue;
+}
+
 #container {
 	height: 90vh;
 	display: flex;
@@ -7,6 +11,8 @@
 }
 
 button {
+	background-color: navy;
+	color: white;
 	height: 40px;
 	width: 40px;
 }
