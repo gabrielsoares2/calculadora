@@ -15,6 +15,7 @@ button {
 	color: white;
 	height: 40px;
 	width: 40px;
+	border-radius: 10px;
 }
 
 #caixaDeEntrada {
